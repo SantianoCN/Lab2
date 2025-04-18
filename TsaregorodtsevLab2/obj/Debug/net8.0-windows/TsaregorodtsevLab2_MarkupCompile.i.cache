@@ -16,5 +16,5 @@ H:\Repos\TsaregorodtsevLab2\TsaregorodtsevLab2\App.xaml
 212-1641243634
 MainWindow.xaml;Pages\AuthPage.xaml;Pages\CreationPage.xaml;Pages\CreationPages\CrDish.xaml;Pages\CreationPages\CrDishType.xaml;Pages\CreationPages\CrMenu.xaml;Pages\DeletePage.xaml;Pages\MenuPage.xaml;Pages\RegPage.xaml;Pages\UpdatePage.xaml;Pages\UpdatePages\UpdDish.xaml;Pages\UpdatePages\UpdDishType.xaml;Pages\UpdatePages\UpdMenu.xaml;Pages\ViewPage.xaml;Pages\ViewPages\ViewDish.xaml;Pages\ViewPages\ViewDishesType.xaml;Pages\ViewPages\ViewMenu.xaml;
 
-True
+False
 

@@ -11,24 +11,29 @@
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
 
             <TextBlock Grid.Row="0" Text="Создание нового блюда" FontSize="18" FontWeight="Bold" Margin="0,0,0,15"/>
 
-            <Label Grid.Row="1" Content="Название блюда:"/>
-            <TextBox Grid.Row="1" x:Name="NameTextBox" Margin="0,5,0,10" Height="25"/>
+            <Label Grid.Row="1" Content="Название блюда:" />
+            <TextBox Grid.Row="2" x:Name="NameTextBox" Margin="0,5,0,10" Height="25"/>
 
-            <Label Grid.Row="2" Content="Описание:"/>
-            <TextBox Grid.Row="2" x:Name="DescriptionTextBox" Margin="0,5,0,10" Height="60" AcceptsReturn="True" TextWrapping="Wrap"/>
+            <Label Grid.Row="3" Content="Описание:"/>
+            <TextBox Grid.Row="4" x:Name="DescriptionTextBox" Margin="0,5,0,10" Height="60" AcceptsReturn="True" TextWrapping="Wrap"/>
 
-            <Label Grid.Row="3" Content="Тип блюда:"/>
-            <ComboBox Grid.Row="3" x:Name="DishTypeComboBox" Margin="0,5,0,10" Height="25" DisplayMemberPath="Name"/>
+            <Label Grid.Row="5" Content="Тип блюда:"/>
+            <ComboBox Grid.Row="6" x:Name="DishTypeComboBox" Margin="0,5,0,10" Height="25" DisplayMemberPath="Name"/>
 
-            <Label Grid.Row="4" Content="Калории:"/>
-            <TextBox Grid.Row="4" x:Name="CaloriesTextBox" Margin="0,5,0,15" Height="25"/>
+            <Label Grid.Row="7" Content="Калории:"/>
+            <TextBox Grid.Row="8" x:Name="CaloriesTextBox" Margin="0,5,0,15" Height="25"/>
 
-            <Button Grid.Row="5" x:Name="CreateButton" Content="Создать" Width="120" Height="30" HorizontalAlignment="Right" Click="CreateButton_Click"/>
+            <Button Grid.Row="9" x:Name="CreateButton" Content="Создать" Width="120" Height="30" HorizontalAlignment="Right" Click="CreateButton_Click"/>
         </Grid>
     </ScrollViewer>
 </Page>

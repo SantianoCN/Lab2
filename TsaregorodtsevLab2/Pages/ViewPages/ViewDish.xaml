@@ -7,8 +7,8 @@
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="ViewDish">
-
-    <Grid>
+    <ScrollViewer>
+        <Grid>
         <DataGrid x:Name="DishesDataGrid" AutoGenerateColumns="False" Margin="10">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Название" Binding="{Binding Name}" Width="*"/>
@@ -19,4 +19,5 @@
         </DataGrid>
         <TextBlock FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0, 20" Text="Нажмите в любом месте чтобы обновить"/>
     </Grid>
+    </ScrollViewer>
 </Page>

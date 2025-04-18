@@ -67,3 +67,4 @@ H:\Repos\TsaregorodtsevLab2\TsaregorodtsevLab2\obj\Debug\net8.0-windows\Pages\Vi
 H:\Repos\TsaregorodtsevLab2\TsaregorodtsevLab2\obj\Debug\net8.0-windows\Pages\ViewPages\ViewDish.baml
 H:\Repos\TsaregorodtsevLab2\TsaregorodtsevLab2\obj\Debug\net8.0-windows\Pages\ViewPage.g.cs
 H:\Repos\TsaregorodtsevLab2\TsaregorodtsevLab2\obj\Debug\net8.0-windows\Pages\ViewPage.baml
+H:\Repos\TsaregorodtsevLab2\TsaregorodtsevLab2\obj\Debug\net8.0-windows\TsaregorodtsevLab2.sourcelink.json
