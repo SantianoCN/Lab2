@@ -1,0 +1,21 @@
+﻿<Page x:Class="TsaregorodtsevLab2.Pages.CreationPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="Создание">
+
+    <Grid>
+        <TabControl>
+            <TabItem Header="Меню">
+                <Frame x:Name="CreateMenuFrame" NavigationUIVisibility="Hidden"/>
+            </TabItem>
+
+            <TabItem Header="Блюдо">
+                <Frame x:Name="CreateDishFrame" NavigationUIVisibility="Hidden"/>
+            </TabItem>
+
+            <TabItem Header="Тип блюда">
+                <Frame x:Name="CreateDishTypeFrame" NavigationUIVisibility="Hidden"/>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Page>

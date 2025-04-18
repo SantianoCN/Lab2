@@ -1,0 +1,37 @@
+﻿<Page x:Class="TsaregorodtsevLab2.Pages.UpdatePages.UpdDish"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="Редактирование блюда">
+
+    <Grid Margin="15">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Text="Редактирование блюда" FontSize="18" FontWeight="Bold" Margin="0,0,0,15"/>
+
+        <ComboBox Grid.Row="1" x:Name="DishesComboBox" DisplayMemberPath="Name" Margin="0,5,0,15" Height="25"/>
+
+        <StackPanel Grid.Row="2">
+            <Label Content="Новое название:"/>
+            <TextBox x:Name="NameTextBox" Margin="0,5,0,10" Height="25"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="3">
+            <Label Content="Новое описание:"/>
+            <TextBox x:Name="DescriptionTextBox" Margin="0,5,0,10" Height="60" AcceptsReturn="True" TextWrapping="Wrap"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="4">
+            <Label Content="Новый тип блюда:"/>
+            <ComboBox x:Name="DishTypeComboBox" DisplayMemberPath="Name" Margin="0,5,0,15" Height="25"/>
+        </StackPanel>
+
+        <Button Grid.Row="5" x:Name="UpdateButton" Content="Сохранить" Width="120" Height="30" HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="UpdateButton_Click"/>
+    </Grid>
+</Page>

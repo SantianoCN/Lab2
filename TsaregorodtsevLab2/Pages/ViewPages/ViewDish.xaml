@@ -1,0 +1,22 @@
+﻿<Page x:Class="TsaregorodtsevLab2.Pages.ViewDish"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:TsaregorodtsevLab2.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="ViewDish">
+
+    <Grid>
+        <DataGrid x:Name="DishesDataGrid" AutoGenerateColumns="False" Margin="10">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Название" Binding="{Binding Name}" Width="*"/>
+                <DataGridTextColumn Header="Описание" Binding="{Binding Description}" Width="2*"/>
+                <DataGridTextColumn Header="Тип блюда" Binding="{Binding Type.Name}" Width="*"/>
+                <DataGridTextColumn Header="Калории" Binding="{Binding Сalories}" Width="0.5*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <TextBlock FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0, 20" Text="Нажмите в любом месте чтобы обновить"/>
+    </Grid>
+</Page>

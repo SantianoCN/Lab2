@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Pages\AuthPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\CreationPages\CrDish.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\CreationPages\CrDishType.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\CreationPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\CreationPages\CrMenu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\DeletePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\MenuPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\RegPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\UpdatePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\UpdatePages\UpdDish.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\UpdatePages\UpdDishType.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\UpdatePages\UpdMenu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\ViewPages\ViewDish.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\ViewPages\ViewDishesType.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\ViewPages\ViewMenu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\ViewPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\AuthPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\CreationPages\CrDish.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\CreationPages\CrDishType.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\CreationPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\CreationPages\CrMenu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\DeletePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\MenuPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\RegPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\UpdatePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\UpdatePages\UpdDish.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\UpdatePages\UpdDishType.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\UpdatePages\UpdMenu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\ViewPages\ViewDish.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\ViewPages\ViewDishesType.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\ViewPages\ViewMenu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\ViewPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

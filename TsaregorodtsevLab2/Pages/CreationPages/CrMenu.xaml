@@ -1,0 +1,28 @@
+﻿<Page x:Class="TsaregorodtsevLab2.Pages.CrMenu"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="Добавление блюда в меню">
+
+    <Grid Margin="15">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Text="Добавление блюда в меню" FontSize="18" FontWeight="Bold" Margin="0,0,0,15"/>
+
+        <StackPanel Grid.Row="1">
+            <Label Content="Блюдо:"/>
+            <ComboBox x:Name="DishesComboBox" DisplayMemberPath="Name" Margin="0,5,0,15" Height="25"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="2">
+            <Label Content="Цена:"/>
+            <TextBox x:Name="PriceTextBox" Margin="0,5,0,15" Height="25"/>
+        </StackPanel>
+
+        <Button Grid.Row="3" x:Name="AddButton" Content="Добавить" Width="120" Height="30" HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="AddButton_Click"/>
+    </Grid>
+</Page>
